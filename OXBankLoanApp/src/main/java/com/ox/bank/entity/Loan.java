@@ -11,6 +11,8 @@ import javax.persistence.ManyToOne;
 @Entity
 public class Loan {
 	
+	String temp;
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	long loanAccountNumber;
